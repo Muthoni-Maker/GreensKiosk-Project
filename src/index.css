@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.main-div-holder{
+  background-color:rgb(243, 236, 236);
+  width:100%;
+  heigth:90vh;
+  display:flex;
+   align-items:center;
+  flex-direction:column;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.header{
+  width:100%;
+  height:300px;
+  background-image:url("https://media.istockphoto.com/photos/healthy-fresh-rainbow-colored-fruits-and-vegetables-background-picture-id1208790371?b=1&k=6&m=1208790371&s=170667a&w=0&h=R4qYkIvPFpYDzGMnuNN8ecabLlzaB2PoYlBXw_6fqXo=");
+  text-align:center;
+  border:1px solid greenyellow;
+  color:white;
+}
+.list-one{
+  border:1px solid rgb(248, 246, 246);
+ 
+}
+.combined{
+  display:flex;
+  flex-direction:row;
+
+}
+.list-two{
+  border:1px solid white;
+ 
+}
+.list-three{
+  border:1px solid white;
+  position:relative;
+  left:20px;
+}
+li{
+  list-style-type:none;
+  font-size:20px;
 }
