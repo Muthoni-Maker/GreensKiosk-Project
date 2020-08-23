@@ -7,7 +7,7 @@ class Items extends React.Component{
       this.state={
         type:["Vegetables","fruits"],      
         name:["Spinach","Oranges","Onions"],  
-        quantity:[30700,4000,5000]
+        quantity:[707800,57000,5000]
       };
     }
     render(){
@@ -16,10 +16,10 @@ class Items extends React.Component{
           <h2>SHOP WITH US</h2>
           <div className="list-one">
             <p><li>Spinach</li>
-               <img src="https://cdn.pixabay.com/photo/2016/01/19/17/36/green-vegetables-1149790__340.jpg"></img>
+               <img src="https://cdn.pixabay.com/photo/2016/01/19/17/36/green-vegetables-1149790__340.jpg" alt="spinach"></img>
                <p><li>Product Name, {this.state.name[0]}</li>
                   <li>Type,{this.state.type[0]}</li>
-                  <li>Quantity , {this.state.quantity[1]}</li>
+                  <li>Quantity , {this.state.quantity[0]}</li>
                 </p>
             </p>
             </div>
@@ -27,7 +27,7 @@ class Items extends React.Component{
         
             <p class="list-two">
               <li>Oranges</li>
-              <img src="https://cdn.pixabay.com/photo/2017/01/20/15/12/orange-1995079__340.jpg"></img>
+              <img src="https://cdn.pixabay.com/photo/2017/01/20/15/12/orange-1995079__340.jpg" alt="oranges"></img>
                <p><li>Product Name, {this.state.name[1]}</li>
                   <li>Type,{this.state.type[1]}</li>
                    <li>Quantity is, {this.state.quantity[1]}</li>
@@ -35,7 +35,7 @@ class Items extends React.Component{
             </p>
              <p class="list-three">
                  <li >Onions</li>
-                   <img src="https://cdn.pixabay.com/photo/2016/08/03/01/13/onion-1565604__340.jpg"></img>
+                   <img src="https://cdn.pixabay.com/photo/2016/08/03/01/13/onion-1565604__340.jpg" alt="onions"></img>
                    <p><li>Product Name, {this.state.name[2]}</li>
                        <li>Type,{this.state.type[0]}</li>
                         <li>Quantity, {this.state.quantity[2]}</li> 
